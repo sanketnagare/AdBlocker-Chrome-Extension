@@ -1,6 +1,6 @@
 ![Screenshot (256)](https://user-images.githubusercontent.com/47942129/136984257-8ef5fa90-cf19-44a5-b323-11aff9d12986.png)
 # AdBlocker-Chrome-Extension
-A web browser extension to block all ads and not get detected by any sites that detects the adblocker extension.
+A web browser extension to block all ads and not get detected by any sites can detect the adblocker extension. This can also Block/Skip youtube ads with popup ads of youtube.
 
 # Installation Instructions
 1. Download Zip file from Zip of [AdABlocker](https://github.com/sanketnagare/AdBlocker-Chrome-Extension/archive/refs/heads/master.zip)
