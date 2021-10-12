@@ -1,0 +1,39 @@
+{
+	"name": "AdABlocker",
+	"manifest_version": 2,
+	"version": "1.0",
+	"description": "Sanket's AdABlocker",
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"storage",
+		"activeTab",
+		"webRequest",
+		"webRequestBlocking",
+		"<all_urls>",
+		"http://*/",
+		"https://*/",
+		"tabs"
+	],
+	"background": {
+		"scripts": [
+			"adsites.js",
+			"background.js"
+		]
+	},
+	"icons": {
+		"128": "icons/ad-blocker.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"https://youtube.com/*",
+				"https://www.youtube.com/*"
+			],
+			"js": [
+				"youtubeblocker.js"
+			]
+		}
+	]
+}

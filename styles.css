@@ -1,0 +1,13 @@
+body {
+    width: 250px;
+    padding: 0 10px 10px;
+    text-align: center;
+  }
+  #enable-extension { 
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background: #ec4464;
+    color: white;
+    cursor: pointer;
+  }
